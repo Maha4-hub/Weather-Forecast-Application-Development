@@ -94,6 +94,38 @@
             Show Extended Forecast
         </button>
     </div>
+
+     <!-- Tailwind CSS Animation parameters -->
+    <style>
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideInUp {
+            0% {
+                transform: translateY(50%);
+                opacity: 0;
+            }
+            100% {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        .animate-fadeIn {
+            animation: fadeIn 2s ease-out forwards;
+        }
+
+        .animate-slideInUp {
+            animation: slideInUp 1s ease-out forwards;
+        }
+    </style>
+    
        <script src="app.js"></script>
 </body>
 </html>
