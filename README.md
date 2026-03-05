@@ -15,11 +15,11 @@ This Weather Forecast Application provides users with real-time weather informat
 1. Clone the repository:
 
    ```bash
-  git clone https://github.com/Maha4-hub/Weather-Forecast-Application-Development.git
-  cd Weather Forecast Application Development
+   git clone https://github.com/Maha4-hub/Weather-Forecast-Application-Development.git
+   cd Weather Forecast Application Development
    ```
 
-2. Open the `index.html` file in your browser.
+2.  Open the `index.html` file in your browser.
 
 ## Usage
 
