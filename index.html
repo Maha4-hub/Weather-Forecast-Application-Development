@@ -67,6 +67,27 @@
         </div>
     </div>
 
+        <!-- Extended Forecast Section -->
+    <div id="extendedForecast" class="bg-white bg-opacity-20 p-3 md:p-8 rounded-lg shadow-lg w-auto max-w-full animate-slideInUp hidden">
+        <h2 class="text-2xl md:text-3xl font-semibold text-white">Extended Forecast</h2>
+        <div class="relative">
+            <!-- Left Scroll Button -->
+            <button id="scrollLeft" class="absolute left-0 top-1/2 transform -translate-y-1/2 -translate-x-full bg-white bg-opacity-50 p-2 rounded-full shadow-md hover:bg-opacity-75 hover:scale-105 transition duration-300">
+                <i class="fa-solid fa-less-than"></i>
+            </button>
+    
+            <!-- Forecast Display -->
+            <div id="forecastDisplay" class="flex flex-nowrap gap-4 text-white overflow-hidden w-full p-2 md:gap-6 lg:gap-8">
+                <!-- Forecast items added dynamically -->
+            </div>
+    
+            <!-- Right Scroll Button -->
+            <button id="scrollRight" class="absolute right-0 top-1/2 transform -translate-y-1/2 translate-x-full bg-white bg-opacity-50 p-2 rounded-full shadow-md hover:bg-opacity-75 hover:scale-105 transition duration-300">
+                <i class="fa-solid fa-greater-than"></i>
+            </button>
+        </div>
+    </div>
+
        <script src="app.js"></script>
 </body>
 </html>
