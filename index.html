@@ -49,6 +49,24 @@
         </div>
     </div>
 
+      <!-- Weather Display Section -->
+    <div id="weatherDisplay" class="bg-white bg-opacity-20 p-3 md:p-8 rounded-lg shadow-lg w-full max-w-md md:max-w-2xl mb-5 animate-slideInUp hidden relative z-10">
+        <h2 class="text-xl md:text-2xl font-semibold text-white">Current Weather</h2>
+        <div class="flex flex-col md:flex-row justify-between items-center text-white">
+            <div class="mb-2 md:mb-0">
+                <p id="cityName" class="text-xl md:text-2xl capitalize"></p>
+                <p id="temperature" class="text-lg md:text-xl"></p>
+                <p id="wind" class="text-lg md:text-xl"></p>
+                <p id="humidity" class="text-lg md:text-xl"></p>
+            </div>
+            <div id="weatherIcon" class="flex flex-col justify-center items-center">
+                <p id="dateTime" class="text-lg md:text-xl"></p>
+                <p id="condition" class="text-lg md:text-xl capitalize"></p>
+                <img id="icon" class="w-16 h-16 animate-pulse">
+            </div>
+        </div>
+    </div>
+
        <script src="app.js"></script>
 </body>
 </html>
